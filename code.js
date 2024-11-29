@@ -1,5 +1,5 @@
 function insertionSortReverse(array) {
-    for(var i = array.length; i > 1; i--) {
+    for(var i = array.length - 1; i > 1; i--) {
         var val = array[i];
         var j;
         for(j = i; j < array.length - 1> 0 && array[j+1] < val; j++) {
